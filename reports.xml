@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<employes>
+  <employe>
+    <id>574daa379545e9af101c2731</id>
+    <name>Foley Day</name>
+    <salary>$1,191.57</salary>
+  </employe>
+  <employe>
+    <id>574daa378cb97f935a5c8e2e</id>
+    <name>Chasity Carver</name>
+    <salary>$1,314.06</salary>
+  </employe>
+  <employe>
+    <id>574daa370866cd66710f5519</id>
+    <name>Greta Mcfadden</name>
+    <salary>$1,393.47</salary>
+  </employe>
+  <employe>
+    <id>574daa37b6b60c495de67280</id>
+    <name>Mckee Summers</name>
+    <salary>$1,282.14</salary>
+  </employe>
+  <employe>
+    <id>574daa37d0ef76e417a4571b</id>
+    <name>Joseph Calhoun</name>
+    <salary>$1,495.46</salary>
+  </employe>
+</employes>
