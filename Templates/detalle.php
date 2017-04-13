@@ -46,7 +46,7 @@
 	 
 
 	<br>
-	<a href="http://localhost/Slim_empezando/index.php/empleados/listado">Volver al listado</a>
+	<a href="../../empleados/listado">Volver al listado</a>
  
 	<br>
 

@@ -5,7 +5,7 @@
 </head>
 <body>
  	<strong>INGRESE UN RANGO DE SALARIOS PARA ENCONTRAR EMPLEADOS:</strong><BR><BR>
-	<form id="form1" action="<?php echo "http://localhost/Slim_empezando/cliente.php/procesar_web_service";  ?>" method="post">
+	<form id="form1" action="<?php echo "cliente.php/procesar_web_service";  ?>" method="post">
 		<table>
 		<tr>
 			<td>VALOR INICIAL:</td>

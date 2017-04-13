@@ -5,12 +5,12 @@
 </head>
 <body>
  	INGRESE UN EMAIL PARA BUSCAR:
-	<form id="form1" action="<?php echo "http://localhost/Slim_empezando/index.php/empleados/resultado";  ?>" method="post">
+	<form id="form1" action="<?php echo "resultado";  ?>" method="post">
 		<input type="text"  name="busqueda"></input>
 		<input type="submit"  ></input>
 	</form>
 
-	<a href="http://localhost/Slim_empezando/index.php/empleados/listado">Volver al listado</a>
+	<a href="listado">Volver al listado</a>
 	<?php /* echo '<pre>'; ?>
  	<?php print_r($dataproducts); ?>
 	<?php echo '</pre>';*/ ?>
@@ -33,7 +33,7 @@
 			<?php 
 
  			?>
-			<td><a href="<?php echo 'http://localhost/Slim_empezando/index.php/empleados/detalle/'. $value['id']; ?>"
+			<td><a href="<?php echo 'detalle/'. $value['id']; ?>"
 			>
 			<?php echo  "DETALLE" ?></a></td>
 

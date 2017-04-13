@@ -6,7 +6,7 @@
 <body>
  	EL RESULTADO DE LA BUSQUEDA: 
 
-	<a href="http://localhost/Slim_empezando/cliente.php">Volver al formulario</a>
+	<a href="../cliente.php">Volver al formulario</a>
 	<?php /* echo '<pre>'; ?>
  	<?php print_r($dataproducts); ?>
 	<?php echo '</pre>';*/ ?>
