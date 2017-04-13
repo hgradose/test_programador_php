@@ -30,8 +30,14 @@ $app->post(
     	$salario1 = $_POST['salario1'];
         $salario2 = $_POST['salario2'];
 
-        $url = "http://localhost/Slim_empezando/index.php/empleado/encontrar_en_rango/$salario1-$salario2";
+       
 
+        $split = explode('/', $_SERVER['HTTP_REFERER']);
+        array_pop($split);
+        $union = implode('/', $split);
+ 
+        $url = "$union/index.php/empleado/encontrar_en_rango/$salario1-$salario2";
+ 
         //CONSUMIENDO EL XML
         $client = curl_init($url);
         curl_setopt($client, CURLOPT_RETURNTRANSFER, 1);
@@ -43,7 +49,6 @@ $app->post(
         $employes = simplexml_load_file("reports.xml");
  
          
-
         $app->render('resultado.php',array('result' => $employes ));
 
      }

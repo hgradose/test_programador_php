@@ -13,9 +13,9 @@
 	<br>
 	<table  border=1>
 		<tr>
+			<td>ID</td>
 			<td>NAME</td>
-			<td>EMAIL</td>
-			<td>POSITION</td>
+			<td>SALARY</td>
   
 		</tr>
 

@@ -40,13 +40,15 @@ $app->get(
         $data = file_get_contents("employees.json");
         $array = json_decode($data, true);
 
+     
+
         $resultado = array();
         foreach ($array as $key => $datos) {
            if(limpia($datos['salary']) > limpia($inicial) && limpia($datos['salary']) < limpia($final) ){
                 $resultado[] = $datos;
            }
         }
- 
+
         //echo $data;
         $xml =new DOMDocument("1.0");
         $xml->formatOutput = true;
@@ -66,7 +68,7 @@ $app->get(
             $salary = $xml->createElement("salary",$value['salary']);
             $employe->appendChild($salary);
         }
-        /*echo "<xmp>" . */$xml->saveXML()/* . "</xmp>"*/;
+        echo "<xmp>" . $xml->saveXML() . "</xmp>";
         $xml->save("reports.xml");
 
     }
